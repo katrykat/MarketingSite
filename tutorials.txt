@@ -1,0 +1,4 @@
+http://getbootstrap.com/getting-started/#download
+http://getbootstrap.com/css/#forms
+http://getbootstrap.com/css/#sass
+https://www.youtube.com/watch?v=nug1pMke-y4&t=582s
