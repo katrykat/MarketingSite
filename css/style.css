@@ -1,13 +1,19 @@
 
+
+
+
 #header{
     background-color: black; 
+    height: 30%;
+    width: 100%;
 
 }
 
 #bodytext{
 
     background-image: url();
-
+    height: 70%;
+    width: 100%;
 
 }
 
@@ -15,5 +21,16 @@
      background: black;
      text-shadow: 1%;
      -moz-text-decoration-color: snow;
-     
+     height: 100%;
+     width: 100%;
+
+    
+}
+
+#button{
+  display: block;
+  margin-left: 45%;
+  margin-right: auto;
+  margin-top: 35%;
+   
 }
