@@ -1,36 +1,50 @@
 
-
-
+body{
+  overflow: hidden;
+  font-family: helvetica;
+}
 
 #header{
-    background-color: black; 
-    height: 30%;
+    background-color: #242323; 
+    height: 19%;
     width: 100%;
 
 }
 
-#bodytext{
-
-    background-image: url();
-    height: 70%;
-    width: 100%;
-
+.carousel{ 
+  height: 80%;
+  width: 100%;
 }
+img {
+  height: 600px;
+  width: 2100px;
+}
+
 
 #footer{
-     background: black;
+     background: #242323;
      text-shadow: 1%;
      -moz-text-decoration-color: snow;
-     height: 100%;
+     height: 21%;
      width: 100%;
 
     
 }
 
-#button{
+#button {
   display: block;
-  margin-left: 45%;
+  text-align: center;
+  margin-left: auto;
   margin-right: auto;
-  margin-top: 35%;
+  margin-top: 3%;
+  margin-bottom: 15%;
    
+}
+
+#cr{
+  color: #444;
+  margin-top: 2.8%;
+  text-decoration: none;
+  font-size: 0.8em;
+
 }
