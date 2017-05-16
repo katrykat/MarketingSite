@@ -6,7 +6,7 @@ body{
 
 #header{
     background-color: #242323; 
-    height: 12%;
+    height: 10%;
     width: 100%;
     position: fixed;
     width: 100%;  
@@ -29,15 +29,31 @@ img {
   width: 100%;
 }
 
-#icon{
-  height: 45px;
-  margin-right:20px; 
-  margin-top: 0px;
-}
-#icon a:hover{
-  height: 80px;
-}
-                                                  /*Carousel*/
+@media(min-width:768px){
+  #icon{
+    height: 45px;
+    margin-right:20px; 
+    margin-top: -10px;
+  }
+
+  #icon a:hover{
+    height: 80px;
+  }
+}    
+
+@media(max-width:767px){
+  #hidden{
+    height: 45px;
+    margin-right:20px; 
+    margin-top: -10px;
+  }
+
+  #icon a:hover{
+    height: 80px;
+  }
+}         
+      
+                                              /*Carousel*/
 
 .carousel-caption {
     position: absolute;
