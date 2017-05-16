@@ -38,6 +38,7 @@ img{
   #icon a:hover{
     height: 80px;
   }
+                                               /*Media*/
 
 @media(max-width:767px){
   .min{
@@ -54,6 +55,9 @@ img{
 }
 
                                               /*Burguer*/
+.navbar-toggle.active{
+  background-color: #242323;
+}                                              
 
 .navbar-toggle .icon-bar:nth-of-type(2) {
 	  top: 1px;
@@ -121,25 +125,25 @@ h3{
 
 h1{
   padding-top: 120px;
+  margin-bottom: 0;
 }
 
 #content{
   font-size: 20px;
-  color: white;
   text-align: justify;
+  margin-top: 0;
+  padding-top: 15%;
  }
 
 #app-info{ 
   margin-top: 0px;
   padding-top: 5px; 
-  background: green;
   height: 100%;
 }
 
 #app-features{ 
   margin-top: 0px;
   padding-top: 5px; 
-  background: grey;
   height: 100%;
 }
                                                  /*footer*/
