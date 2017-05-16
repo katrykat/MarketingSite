@@ -9,19 +9,19 @@ body{
     height: 10%;
     width: 100%;
     position: fixed;
-    width: 100%;  
-    top: -5;
+    top: 0;
     left: 0;
     right: 0;
-
 }
 .navbar{
+    display: inline;
     position: fixed;
     width: 100%; 
     background-color: transparent;
     border-bottom-color: transparent;
     left: 0;
     right: 0;
+    top: 0;
 }
 
 img {
@@ -29,30 +29,16 @@ img {
   width: 100%;
 }
 
-@media(min-width:768px){
+
   #icon{
     height: 45px;
     margin-right:20px; 
-    margin-top: -10px;
+    margin-top: -60px;
   }
 
   #icon a:hover{
     height: 80px;
   }
-}    
-
-@media(max-width:767px){
-  #hidden{
-    height: 45px;
-    margin-right:20px; 
-    margin-top: -10px;
-  }
-
-  #icon a:hover{
-    height: 80px;
-  }
-}         
-      
                                               /*Carousel*/
 
 .carousel-caption {
