@@ -32,7 +32,7 @@ img{
   #icon{
     height: 45px;
     margin-right:10px; 
-    margin-top: -60px;
+    margin-top: -63px;
   }
 
   #icon a:hover{
@@ -44,6 +44,33 @@ img{
   .min{
     visibility: hidden; 
   }
+ 
+h2{
+  margin-right: 28%;
+  color: white;
+  padding-top: 60px; 
+  } 
+
+h1{
+  padding-top: 120px;
+  margin-bottom: 0;
+  }
+
+p{
+  font-size: 21px;
+  margin-left: auto;
+  margin-right: 28%;
+  background:rgba(0, 0, 0, 0.46);
+  }
+
+#content{
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 4%;
+  padding-top: 0;
+  margin-right: 0;
+ }
+
 
 }
 @media(min-width:768px){
@@ -51,6 +78,18 @@ img{
     visibility: hidden; 
     margin-right: -80px; 
   }
+  .pull-right {
+    float: right !important;
+    padding-right:30%; 
+  }
+
+#content{
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 5%;
+  padding-top: 0;
+  margin-right: 0;
+ }
 
 }
 
@@ -104,12 +143,6 @@ img{
       bottom: 0;
 }
 
-.carousel-caption h3 {
-    display:table-cell;
-    vertical-align: middle;
-    text-align:center;
-}
-
 
 .item {
     position:relative;
@@ -117,10 +150,10 @@ img{
 
                                                   /*section*/
 
-h3{
+h2{
   text-align: center;
   color: white;
-  padding-top: 20px; 
+  padding-top: 60px; 
 } 
 
 h1{
@@ -128,23 +161,24 @@ h1{
   margin-bottom: 0;
 }
 
-#content{
-  font-size: 20px;
-  text-align: justify;
-  margin-top: 0;
-  padding-top: 15%;
- }
+p{
+  font-size: 21px;
+  background: rgba(169, 167, 167, 0.5);
+}
+
 
 #app-info{ 
   margin-top: 0px;
   padding-top: 5px; 
   height: 100%;
+  width: 100%;
 }
 
 #app-features{ 
   margin-top: 0px;
   padding-top: 5px; 
   height: 100%;
+  width: 100%;
 }
                                                  /*footer*/
 
@@ -162,12 +196,9 @@ h1{
 }
 
 
-#button {
-  display: block;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 12px;
+.button {
+  float: right !important;
+  padding-right:43%; 
   margin-bottom: 10px;  
 }
 

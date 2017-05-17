@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         <script src="js/bootstrap.min.js"></script>
@@ -38,28 +39,24 @@
     </script>
     <!--End Analitics-->
 
-                               <!--Header-->
-    <div class="row">
-        <div class="col-xs-12 col-sm-12" id="header">
-            <nav class="navbar navbar-inverse">
-                <div class="container-fluid">
-                    <div class="navbar-header page-scroll">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                         <a class="navbar-brand page-scroll" href="#">TicTacToe</a>
-                    </div>
-                     <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse navbar-ex1-collaps">
-                        <ul class="nav navbar-nav navbar-center">
-                                <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
-                                <li><a class="page-scroll" href="#app-info">Info</a></li>
-                                <li><a class="page-scroll" href="#app-features">Features</a></li>                  
-                        </ul>
-                    </div>      
-                    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!--Header-->
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">TicTacToe</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a class="page-scroll" href="#app-info">Info</a></li>
+                    <li><a class="page-scroll" href="#app-features">Features</a></li>
+                </ul>
+            </div><!-- /.nav-collapse -->
+             <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse navbar-ex1-collapse">        
                         <ul class="nav navbar-nav navbar-right" id="icon">
                             <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
@@ -69,10 +66,8 @@
                             <li class="li-show"><a class="page-scroll" href="https://twitter.com/T1cTacToe">Twitter</a></li>
                         </ul>
                     </div>
-                </div>      
-            </nav>
-        </div>    
-    </div>
+        </div><!-- /.container -->
+    </nav><!-- /.navbar -->
 
 
                               <!--Carousel-->
@@ -88,34 +83,37 @@
         <div class="carousel-inner">
             <div class="item active">
                 <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('img/example1.png');"></div>
+                <div class="fill" style="background-image:url('img/header1.png');"></div>
                 <div class="carousel-caption">
                     <h2>TicTacToe is here!</h2>
                         <br/>
-                    <p>The classic game that is taking </br> the digital era with </br>their own legs</hp>
-            <div id="button">
-               <a href="https://github.com/katrykat/TicTacToe/blob/master/android-debug(1).apk" class="btn btn-warning active"  role="button">Download App</a>
-            </div>
+                    <p class="pull-right">The classic game is taking </br> the digital era with </br>new features and amazing challenges.
+                    <br/>
+                    Download the app now and star having fun with your friends</p>
+                    <div class="button">
+                       <a href="https://github.com/katrykat/TicTacToe/blob/master/android-debug(1).apk" class="btn btn-info active"  role="button">Download App</a>
+                    </div>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('img/example2.png');"></div>
+                <div class="fill" style="background-image:url('img/header3.png');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                      <p>wefrgfh</p>
-                        <div id="button">
-                           <a href="#app-info" class="btn btn-info active"  role="button">Read more</a>
-                        </div>
+                    <h2>What is TicTacToe?</h2>
+                        <br/>
+                    <p class="pull-right">TicTacToe is an Amazing app that give you <br/>the oportunity of excercise your mind at the moment you are having fun.</p>                   
+                    <div class="button">
+                        <a href="#app-info" class="btn btn-info active"  role="button">Read more</a>
+                    </div>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('img/example3.png');"></div>
+                <div class="fill" style="background-image:url('img/header2.png');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                    <p>wefrgfh</p>
-                        <div id="button">
+                    <h2>System features and installation</h2>
+                    <p class="pull-right">Do you need Asistence with the instalation? Click <a href="#app-features">here</a>, we will try to answer all your questions.</p>
+                        <div class="button">
                            <a href="#app-features" class="btn btn-info active"  role="button">Read more</a>
                         </div>
                 </div>
@@ -138,7 +136,7 @@
     <div class="col-xs-12 col-sm-12 col-lg-12" id="footer" >
           </br>
             <div class="hidden-xs">
-                <p id="cr"> Design by <a href="https://www.linkedin.com/in/katrykat/">Kateris Martinez </a>- Copyright 2017.- All Rights Reserved.<a href="https://www.linkedin.com/in/katrykat/">Contact Us</a></p>
+                <div id="cr"> Design by <a href="https://www.linkedin.com/in/katrykat/">Kateris Martinez </a>- Copyright 2017.- All Rights Reserved.<a href="https://www.linkedin.com/in/katrykat/">Contact Us</a></div>
             </div>	
     </div>
   </div>
@@ -148,20 +146,32 @@
 
                       <!-- See more sections -->
 <!--App Info-->
-      <section class="row" id="app-info">
+      <section class="row" id="app-info" style="background-image:url('img/example1.png');">
           <div class="container-fluid">
-                <div class="col-xs-12 col-sm-6 col-lg-6">
+                <div class="col-xs-12 col-sm-12 col-lg-6">
                   <h1>What is TicTacToe?</h1>
-                    <p id="content">TicTacToe is an Amazing app that give you the oportunity of excercise your mind at the moment you are having fun.</p>
-                </div> 
+                    <p id="content">The rules are very easy, match 3 of your tockens as a line in any position; Horizontal, Vertical or diagonal, try to win against <b>Michie</b> (our very experimented host) who is prepared for give you a good game. Do you think that you can win at least one? 
+                        <br/>
+                        <br/>
+                    <a href="#app-features">Play Now!</a></p>
+                </div>    
+                  <div class="col-xs-12 col-sm-6 col-lg-6">
+                       <h1>Preview</h1>
+                        <div></div>
+                 </div>             
+                
           </div>  
       </section>   
   <!--App Features-->
-       <section class="row" id="app-features">
+       <section class="row" id="app-features" style="background-image:url('img/example2.png');">
           <div class="container-fluid">        
             <div class="col-xs-12 col-sm-6 col-lg-6">
-              <h1>How to play it</h1>
-                <p id="content"> Try to win against <b>Michie</b> our very experimented host who is prepared for give you a good game. Do you think that you can win at least one? try show that you are a genius.</p>
+              <h1>System features</h1>
+                <div id="content">Minimun requirements:</div>
+            </div>  
+            <div class="col-xs-12 col-sm-6 col-lg-6">
+              <h1>Installation</h1>
+                <div id="content">Minimun requirements:</div>
             </div>  
           </div>  
        </section>  
