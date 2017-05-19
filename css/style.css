@@ -236,7 +236,6 @@ p{
   padding-top: 5px; 
   height: 100%;
   width: 100%;
-  background-repeat: no-repeat;
 }
 
 #app-features{ 
@@ -244,8 +243,6 @@ p{
   padding-top: 5px; 
   height: 100%;
   width: 100%;
-  background-repeat: no-repeat;
-
 }
 
 .button-service {
